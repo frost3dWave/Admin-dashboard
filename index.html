@@ -5,43 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <div class="search-section">
-            <div>
-                <img src="images/main/magnify.svg" alt="magnifying glass search icon">
-                <input type="search" name="q" />
-            </div>
-            <div>
-                <img src="images/main/bell-ring-outline.svg" alt="notification bell ringing ">
-                <img src="images/morgan-pic.jpg" alt="morgan oakley profile pic">
-                <h3>Morgan Oakley</h3>
-            </div>
-        </div>
-        
-        <div class="profile-intro-section">
-            <div class="profile-name">
-                <img src="images/morgan-pic.jpg" alt="morgan oakley profile pic">
-                <div>
-                    <h2>
-                        <span>Hi there,</span>
-                        Morgan Oakley (@morgan)
-                    </h2>
+    <div class="grid">
+
+        <header>
+            <div class="search-section">
+                <div class="search">
+                    <img src="images/main/magnify.svg" alt="magnifying glass search icon">
+                    <input type="search" name="q" />
+                </div>
+                <div class="profile">
+                    <img src="images/main/bell-ring-outline.svg" alt="notification bell ringing ">
+                    <img src="images/morgan-pic.jpg" alt="morgan oakley profile pic">
+                    <h3>Morgan Oakley</h3>
                 </div>
             </div>
-
-            <div class="function">
-                <a href="#">New</a>
-                <a href="#">Upload</a>
-                <a href="#">Share</a>
+            
+            <div class="profile-intro-section">
+                <div class="profile-name">
+                    <img src="images/morgan-pic.jpg" alt="morgan oakley profile pic">
+                    <div>
+                        <h2>
+                            <span>Hi there,</span>
+                            Morgan Oakley (@morgan)
+                        </h2>
+                    </div>
+                </div>
+    
+                <div class="function">
+                    <a href="#">New</a>
+                    <a href="#">Upload</a>
+                    <a href="#">Share</a>
+                </div>
             </div>
-        </div>
-    </header>
-
-    <main>
+        </header>
+    
         <aside> 
             <div class="heading">
                 <img src="images/sidebar/view-dashboard.svg" alt="">
@@ -110,117 +115,120 @@
                 </ul>
             </nav>
         </aside>
-
-        <div class="container">
-
-            <section id="your-projects" class="projects-container">
-                <h2>Your Projects</h2>
-
-                <article>
-                    <h3>Super Cool Project</h3>
-                    <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
-                    <img src="images/main/star-plus-outline.svg" alt="starred icon meant to favourite things">
-                    <img src="images/main/eye-plus-outline.svg" alt="Eye icon meant to view the project">
-                    <img src="images/main/source-fork.svg" alt="fork icon meant to fork the project">
-                </article>
-
-                <article>
-                    <h3>Impossible App</h3>
-                    <p>In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a placerat velit sagittis id</p>
-                    <img src="images/main/star-plus-outline.svg" alt="starred icon meant to favourite things">
-                    <img src="images/main/eye-plus-outline.svg" alt="Eye icon meant to view the project">
-                    <img src="images/main/source-fork.svg" alt="fork icon meant to fork the project">
-                </article>
-
-                <article>
-                    <h3>Ad Blocker</h3>
-                    <p>Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel, pharetra hendrerit felis. Aliquam sed malesuada eros.</p>
-                    <img src="images/main/star-plus-outline.svg" alt="starred icon meant to favourite things">
-                    <img src="images/main/eye-plus-outline.svg" alt="Eye icon meant to view the project">
-                    <img src="images/main/source-fork.svg" alt="fork icon meant to fork the project">
-                </article>
-
-                <article>
-                    <h3>Less Cool Project</h3>
-                    <p>Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque sed dolor tincidunt, consectetur sapien et, facilisis dolor. Duis sem purus, dignissim ut sapien in, varius pellentesque lacus.</p>
-                    <img src="images/main/star-plus-outline.svg" alt="starred icon meant to favourite things">
-                    <img src="images/main/eye-plus-outline.svg" alt="Eye icon meant to view the project">
-                    <img src="images/main/source-fork.svg" alt="fork icon meant to fork the project">
-                </article>
-
-                <article>
-                    <h3>Easy Peasy App</h3>
-                    <p>Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna eget accumsan aliquam. Curabitur dignissim nisi in tortor commodo, ac bibendum magna tincidunt.</p>
-                    <img src="images/main/star-plus-outline.svg" alt="starred icon meant to favourite things">
-                    <img src="images/main/eye-plus-outline.svg" alt="Eye icon meant to view the project">
-                    <img src="images/main/source-fork.svg" alt="fork icon meant to fork the project">
-                </article>
-
-                <article>
-                    <h3>Money Maker</h3>
-                    <p>Praesent convallis, libero quis congue elementum, nunc ante faucibus sapien, ac scelerisque tortor purus sit amet ex. Pellentesque mollis nec sem vel aliquam.</p>
-                    <img src="images/main/star-plus-outline.svg" alt="starred icon meant to favourite things">
-                    <img src="images/main/eye-plus-outline.svg" alt="Eye icon meant to view the project">
-                    <img src="images/main/source-fork.svg" alt="fork icon meant to fork the project">
-                </article>
-            </section>
-
-            <section id="announcements">
-                <h2>Announcements</h2>
-
-                <article>
-                    <h3>Site Maintenance</h3>
-                    <p>Vestibulum condimentum tellus lacus, in accumsan elit maximus ac. Donec hendrerit sodales congue...</p>
-                    <hr>
-                    <h3>Community Share Day</h3>
-                    <p>Nam vel lectus tincidunt, rutrum nulla eu, ornare libero. Aliquam dictum accumsan porttitor...</p>
-                    <hr>
-                    <h3>Updated Privacy Policy</h3>
-                    <p>Phasellus efficitur nisi eget elit consectetur, eget condimentum ante auctor. Cras fringilla sagittis sem in mattis...</p>
-                </article>
-            </section>
-
-            <section id="trending">
-                <h3>Trending</h3>
-
-                <article>
-
-                    <div class="trending-profiles">
-                        <img src="images/tegan-pic.png" alt="tegan profile pic">
-                        <div class="trending-profile-name">
-                            <a href="#">@tegan</a>
-                            <p>World Peace Builder</p>
+        <!-- <main> -->
+    
+            <!-- <div class="container">
+    
+                <section id="your-projects" class="projects-container">
+                    <h2>Your Projects</h2>
+    
+                    <article>
+                        <h3>Super Cool Project</h3>
+                        <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
+                        <img src="images/main/star-plus-outline.svg" alt="starred icon meant to favourite things">
+                        <img src="images/main/eye-plus-outline.svg" alt="Eye icon meant to view the project">
+                        <img src="images/main/source-fork.svg" alt="fork icon meant to fork the project">
+                    </article>
+    
+                    <article>
+                        <h3>Impossible App</h3>
+                        <p>In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a placerat velit sagittis id</p>
+                        <img src="images/main/star-plus-outline.svg" alt="starred icon meant to favourite things">
+                        <img src="images/main/eye-plus-outline.svg" alt="Eye icon meant to view the project">
+                        <img src="images/main/source-fork.svg" alt="fork icon meant to fork the project">
+                    </article>
+    
+                    <article>
+                        <h3>Ad Blocker</h3>
+                        <p>Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel, pharetra hendrerit felis. Aliquam sed malesuada eros.</p>
+                        <img src="images/main/star-plus-outline.svg" alt="starred icon meant to favourite things">
+                        <img src="images/main/eye-plus-outline.svg" alt="Eye icon meant to view the project">
+                        <img src="images/main/source-fork.svg" alt="fork icon meant to fork the project">
+                    </article>
+    
+                    <article>
+                        <h3>Less Cool Project</h3>
+                        <p>Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque sed dolor tincidunt, consectetur sapien et, facilisis dolor. Duis sem purus, dignissim ut sapien in, varius pellentesque lacus.</p>
+                        <img src="images/main/star-plus-outline.svg" alt="starred icon meant to favourite things">
+                        <img src="images/main/eye-plus-outline.svg" alt="Eye icon meant to view the project">
+                        <img src="images/main/source-fork.svg" alt="fork icon meant to fork the project">
+                    </article>
+    
+                    <article>
+                        <h3>Easy Peasy App</h3>
+                        <p>Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna eget accumsan aliquam. Curabitur dignissim nisi in tortor commodo, ac bibendum magna tincidunt.</p>
+                        <img src="images/main/star-plus-outline.svg" alt="starred icon meant to favourite things">
+                        <img src="images/main/eye-plus-outline.svg" alt="Eye icon meant to view the project">
+                        <img src="images/main/source-fork.svg" alt="fork icon meant to fork the project">
+                    </article>
+    
+                    <article>
+                        <h3>Money Maker</h3>
+                        <p>Praesent convallis, libero quis congue elementum, nunc ante faucibus sapien, ac scelerisque tortor purus sit amet ex. Pellentesque mollis nec sem vel aliquam.</p>
+                        <img src="images/main/star-plus-outline.svg" alt="starred icon meant to favourite things">
+                        <img src="images/main/eye-plus-outline.svg" alt="Eye icon meant to view the project">
+                        <img src="images/main/source-fork.svg" alt="fork icon meant to fork the project">
+                    </article>
+                </section> -->
+    
+                <!-- <section id="announcements">
+                    <h2>Announcements</h2>
+    
+                    <article>
+                        <h3>Site Maintenance</h3>
+                        <p>Vestibulum condimentum tellus lacus, in accumsan elit maximus ac. Donec hendrerit sodales congue...</p>
+                        <hr>
+                        <h3>Community Share Day</h3>
+                        <p>Nam vel lectus tincidunt, rutrum nulla eu, ornare libero. Aliquam dictum accumsan porttitor...</p>
+                        <hr>
+                        <h3>Updated Privacy Policy</h3>
+                        <p>Phasellus efficitur nisi eget elit consectetur, eget condimentum ante auctor. Cras fringilla sagittis sem in mattis...</p>
+                    </article>
+                </section> -->
+    
+                <!-- <section id="trending">
+                    <h3>Trending</h3>
+    
+                    <article>
+    
+                        <div class="trending-profiles">
+                            <img src="images/tegan-pic.png" alt="tegan profile pic">
+                            <div class="trending-profile-name">
+                                <a href="#">@tegan</a>
+                                <p>World Peace Builder</p>
+                            </div>
                         </div>
-                    </div>
-
-                    <div>
-                        <img src="images/morgan-pic.jpg" alt="morgan oakley profile pic">
-                        <div class="trending-profile-name">
-                            <a href="#">@morgan</a>
-                            <p>Super Cool Project</p>
+    
+                        <div>
+                            <img src="images/morgan-pic.jpg" alt="morgan oakley profile pic">
+                            <div class="trending-profile-name">
+                                <a href="#">@morgan</a>
+                                <p>Super Cool Project</p>
+                            </div>
                         </div>
-                    </div>
-
-                    <div>
-                        <img src="images/kendall-pic.jpeg" alt="kendall profile pic">
-                        <div class="trending-profile-name">
-                            <a href="#">@kendall</a>
-                            <p>Life Changing App</p>
+    
+                        <div>
+                            <img src="images/kendall-pic.jpeg" alt="kendall profile pic">
+                            <div class="trending-profile-name">
+                                <a href="#">@kendall</a>
+                                <p>Life Changing App</p>
+                            </div>
                         </div>
-                    </div>
-
-                    <div>
-                        <img src="images/alex-pic.png" alt="alex profile pic">
-                        <div class="trending-profile-name">
-                            <a href="#">@alex</a>
-                            <p>No Traffic Maker</p>
+    
+                        <div>
+                            <img src="images/alex-pic.png" alt="alex profile pic">
+                            <div class="trending-profile-name">
+                                <a href="#">@alex</a>
+                                <p>No Traffic Maker</p>
+                            </div>
                         </div>
-                    </div>
+    
+                    </article>
+                </section>
+    
+            </div> -->
+        </main>
 
-                </article>
-            </section>
-
-        </div>
-    </main>
+    </div>
 </body>
 </html>
