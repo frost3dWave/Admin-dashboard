@@ -1,7 +1,6 @@
 :root{
     --clr-black-blue: #222831;
     --clr-dark-blue: #283b48;
-    /* --clr-blue:#00a6c0;  */
     --clr-blue: #1992d4;
     --clr-grey: #d8d7ce;
 }
@@ -82,7 +81,6 @@ header {
 
 .search-section {
     display: flex;
-    /* border: 1px solid white; */
     justify-content: space-between;
     align-items: center;
     padding-block: 16px;
@@ -94,19 +92,18 @@ header {
     justify-content: center;
     align-items: center;
     gap: 24px;
-    /* border: 1px solid white; */
     padding-block: 8px;
     padding-inline: 10px;
 }
 
 input {
-   width: 700px;
-   border-radius: 25px;
+   inline-size: 43.75rem;
+   border-radius: 1.5625rem;
    padding-inline: 16px;
    padding-block: 2px;
    background-color: var(--clr-dark-blue);
-   border: none;
    color: var(--clr-grey);
+   border: none;
 }
 
 .profile {
@@ -114,9 +111,8 @@ input {
     justify-content: center;
     align-items: center;
     gap: 24px;
-    /* border: 1px solid white; */
     padding-inline: 10px;
-    width: 25%;
+    inline-size: 25%;
 }
 
 .profile img:nth-child(2) {
@@ -128,19 +124,18 @@ input {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border: 1px solid white; */
-    padding: 16px;
+    padding-block: 16px;
     padding-inline: 32px;
 
     a {
         text-decoration: none;
-        font-size: 18px;
+        font-size: 1.125rem;
         background-color: var(--clr-blue);
         color: black;
         padding-block: 10px;
         padding-inline: 24px;
         margin: 15px;
-        border-radius: 20px;
+        border-radius: 1.25rem;
     }
 
     a:hover {
@@ -154,7 +149,6 @@ input {
     align-items: center;
     gap: 24px;
     text-align: start;
-    /* border: 1px solid wheat; */
 
     img {
         max-inline-size: 5rem;
@@ -162,11 +156,11 @@ input {
     }
 
     h2 {
+        font-size: 1.25rem;
         span {
             display: block;
-            font-size: 14px;
+            font-size: 0.875rem;
         }
-        font-size: 20px;
     }
 }
 
@@ -180,7 +174,6 @@ aside {
     grid-row: 1/7;
     padding-block: 20px;
     padding-left: 20px;
-    /* padding-inline: 32px; */
     background-color: var(--clr-blue);
     color: var(--clr-grey);
     color: black;
@@ -190,14 +183,13 @@ aside {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* border: 1px solid; */
     gap: 16px;
     margin-left: 16px;
     img {
         max-inline-size: 3rem;
     }
     h1 {
-        font-size: 28px;
+        font-size: 1.75rem;
     }
 }
 
@@ -207,7 +199,7 @@ nav {
         color: black;
         display: flex;
         gap: 32px;
-        font-size: 18px;
+        font-size: 1.125rem;
         margin-block: 8px;
     }
 
@@ -252,7 +244,7 @@ main{
     text-align: start;
     margin-inline: 50px;
     margin-block: 15px;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .projects-container {
@@ -275,8 +267,7 @@ main{
     padding-inline: 20px;
     max-inline-size: 45ch;
     border-left: 7px solid rgb(240,180,41);
-    /* border-left: 7px solid var(--clr-blue); */
-    border-radius: 10px;
+    border-radius: 0.625rem;
 }
 
 .projects-container article h3 {
@@ -328,14 +319,14 @@ main{
         background-color: var(--clr-black-blue);
         padding: 15px;
         text-align: start;
-        border-radius: 10px;
+        border-radius: 0.625rem;
     }
     h3 {
-        font-size: 16px;
+        font-size: 1rem;
         margin-top: 16px;
     }
     p {
-        font-size: 14px;
+        font-size: 0.875rem;
         margin-bottom: 16px;
     }
 }
@@ -356,7 +347,7 @@ main{
     padding-block: 15px;
     padding-inline: 24px;
     text-align: start;
-    border-radius: 10px;
+    border-radius: 0.625rem;
 }
 
 .trending-section article div:first-child{
@@ -380,9 +371,9 @@ main{
 
 .trending-profiles img {
     border-radius: 50%;
-    max-inline-size: 48px;
+    max-inline-size: 3rem;
 }
 
 .trending-profiles img:first-child {
-    max-block-size: 48px;
+    max-block-size: 3rem;
 }
