@@ -142,6 +142,10 @@ input {
         margin: 15px;
         border-radius: 20px;
     }
+
+    a:hover {
+        color: var(--clr-grey);
+    }
 }
 
 .profile-name {
@@ -200,13 +204,17 @@ aside {
 nav {
     a {
         text-decoration: none;
-        color: var(--clr-grey);
         color: black;
         display: flex;
         gap: 32px;
         font-size: 18px;
         margin-block: 8px;
     }
+
+    a:hover {
+        color: var(--clr-grey);
+    }
+
     ul {
         display: flex;
         flex-direction: column;
@@ -363,6 +371,10 @@ main{
     a {
         text-decoration: none;
         color: var(--clr-grey);
+    }
+
+    a:hover {
+        color: var(--clr-blue);
     }
 }
 
