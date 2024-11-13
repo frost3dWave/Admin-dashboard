@@ -11,7 +11,7 @@ This is a solution / project done as part of The Odin Project. The particular ch
 
 ### Links
 
-- [Project Brief URL]((https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard))
+- [Project Brief URL](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard)
 - [Live Site URL](https://frost3dwave.github.io/Admin-dashboard/)
 
 ### Built with
